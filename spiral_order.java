@@ -81,11 +81,31 @@ public static void main(String ss[])
 	}
 	
 	
-	// print the list , which contains the spiral order ..
+	// print the list 6, which contains the spiral order ..
+	
+	System.out.println("Spiral order ");
 	for(int i=0;i<list.size();i++)
 	{
 		System.out.print(list.get(i)+" ");
 	}
+	
+	System.out.println();
+	
+	
+	System.out.println("Reverse of the spiral order ");
+	Collections.reverse(list);
+	
+	for(int i=0;i<list.size();i++)
+	{
+		System.out.print(list.get(i)+" ");
+	}
+	
+	
+	
+	
+	
+	
+	
 	  
 	  
 	  
